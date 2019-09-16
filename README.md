@@ -6,7 +6,7 @@ Repo for playing around with Netdata.
 
 create conda env like below:
 ```
-conda create -n netdata-learn python=3.6 numpy pandas requests jupyterlab matplotlib pytest
+conda create -n netdata-learn python=3.6 numpy pandas requests jupyterlab matplotlib pytest scikit-multiflow
 ```
 
 ## packages
