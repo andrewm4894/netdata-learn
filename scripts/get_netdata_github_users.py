@@ -14,7 +14,7 @@ repo = g.get_repo("netdata/netdata")
 # get num pages
 page_len = len(repo.get_stargazers_with_dates().get_page(1))
 num_stargazers = repo.get_stargazers().totalCount
-num_pages = (num_stargazers // page_len) + 1
+num_pages = (num_stargazers // page_len) + 2
 
 # list to collect data into
 rownum = 0
