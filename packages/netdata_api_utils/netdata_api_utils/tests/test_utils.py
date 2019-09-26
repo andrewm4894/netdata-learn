@@ -13,3 +13,6 @@ def test_get_metrics_has_rows():
 def test_get_metrics_has_expected_cols():
     # test you get expected number of cols
     assert get_metrics().shape[1]==4
+
+def do_fail():
+    assert 1==0
