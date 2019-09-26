@@ -16,4 +16,4 @@ jobs:
         echo Add other actions to build,
         echo test, and deploy your project.
     - name: pytest
-      run: pytest
+      uses: "cclauss/GitHub-Action-for-pytest@master"
