@@ -1,6 +1,6 @@
 # netdata-learn
 
-Repo for playing around with Netdata.
+Repo for playing around with Netdata...
 
 ## conda env
 
