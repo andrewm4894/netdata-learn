@@ -10,3 +10,5 @@ jobs:
     steps:
     - name: pytest
       uses: "cclauss/GitHub-Action-for-pytest@master"
+    - name: do_pytest
+      run: pytest
